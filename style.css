@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 80px;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    text-decoration: underline;
+    font-family: cursive;
+}
+
+h2 {
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.section-container {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 30px;
+    font-size: 18px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: rgb(88, 88, 88);
+}
+
+img {
+    display: block;
+    height: auto;
+    width: 560px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 2px solid black;
+}
